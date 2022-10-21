@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/600274bfeb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- global container (title + card) -->
+    <section class="container">
+      <div class="title">
+        <h2>Personnages</h2>
+        <!--title-->
+        <div class="text-underline"></div>
+      </div>
+      <!-- card -->
+      <section class="card">
+        <div class="img-container">
+          <img id="person-img" src="./link.png" />
+        </div>
+        <h4 id="author">Link</h4>
+        <p id="job">héros du temps</p>
+        <p id="info">
+          Link (リンク Rinku) est le protagoniste de la série The Legend of
+          Zelda. Il a été créé en 1986 par Shigeru Miyamoto en tant que héros du
+          premier jeu de la série, The Legend of Zelda. Son nom vient du mot
+          anglais link (lien), car il est un lien entre le joueur et le
+          personnage du jeu. Il est cependant possible de modifier son nom au
+          début du jeu. Il représente en fait plusieurs incarnations d’un même
+          personnage à travers le temps et à travers les jeux.
+        </p>
+        <!-- buttons -->
+        <div class="btn-container">
+          <button class="prev-btn">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <button class="random-btn">personnage aléatoire</button>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(39, 39, 39);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: rgb(247, 240, 240);
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://pbs.twimg.com/media/EaY8TBsWoAg1h6V?format=jpg&name=large");
+  background-size: cover;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: rgb(154, 220, 107);
+}
+.container {
+  text-align: center;
+}
+.text-underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: rgb(191, 122, 255);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+.card {
+  background-color: rgb(168, 223, 129);
+  border-radius: 5px;
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.745);
+}
+#person-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 60px;
+  border-top: 5px solid rgb(191, 122, 255);
+  border-right: 7px solid rgb(191, 122, 255);
+  margin-bottom: 1rem;
+}
+#author {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+#job {
+  color: blueviolet;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  margin: 0 1rem;
+  cursor: pointer;
+  /* transition: all 0.3s ease-in; */
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: blueviolet;
+}
+
+.random-btn {
+  margin-top: 1rem;
+  text-transform: capitalize;
+  background-color: rgb(153, 220, 105);
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.random-btn:hover {
+  background-color: rgb(132, 0, 255);
+  color: rgb(240, 247, 234);
+  transition: ease 0.3s all;
+}
+
+#info {
+  min-height: 18rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  #info {
+    min-height: 12rem;
+  }
+}
